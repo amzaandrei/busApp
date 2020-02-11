@@ -19,7 +19,7 @@
 		E59D66B31FFFD7680038FC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B21FFFD7680038FC1A /* AppDelegate.swift */; };
 		E59D66B71FFFD77D0038FC1A /* StationsSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B41FFFD77D0038FC1A /* StationsSchedule.swift */; };
 		E59D66B81FFFD77D0038FC1A /* StationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B51FFFD77D0038FC1A /* StationsController.swift */; };
-		E59D66B91FFFD77D0038FC1A /* BusesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B61FFFD77D0038FC1A /* BusesController.swift */; };
+		E59D66B91FFFD77D0038FC1A /* busesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B61FFFD77D0038FC1A /* busesController.swift */; };
 		E59D66BB1FFFD7890038FC1A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59D66BA1FFFD7890038FC1A /* Interface.storyboard */; };
 		E59D66BD1FFFD7910038FC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59D66BC1FFFD7910038FC1A /* Assets.xcassets */; };
 		E59D66C11FFFD79D0038FC1A /* StationsSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66BE1FFFD79D0038FC1A /* StationsSchedule.swift */; };
@@ -94,7 +94,7 @@
 		E59D66B21FFFD7680038FC1A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59D66B41FFFD77D0038FC1A /* StationsSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsSchedule.swift; sourceTree = "<group>"; };
 		E59D66B51FFFD77D0038FC1A /* StationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsController.swift; sourceTree = "<group>"; };
-		E59D66B61FFFD77D0038FC1A /* BusesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusesController.swift; sourceTree = "<group>"; };
+		E59D66B61FFFD77D0038FC1A /* busesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = busesController.swift; sourceTree = "<group>"; };
 		E59D66BA1FFFD7890038FC1A /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		E59D66BC1FFFD7910038FC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59D66BE1FFFD79D0038FC1A /* StationsSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsSchedule.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		E592A4F423F2E87500311D4F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E59D66B61FFFD77D0038FC1A /* BusesController.swift */,
+				E59D66B61FFFD77D0038FC1A /* busesController.swift */,
 				E59D66B51FFFD77D0038FC1A /* StationsController.swift */,
 				E59D66B41FFFD77D0038FC1A /* StationsSchedule.swift */,
 			);
@@ -372,7 +372,7 @@
 				E5A4C8B0200E261F008FC68C /* CirclePage.swift in Sources */,
 				E59D66B71FFFD77D0038FC1A /* StationsSchedule.swift in Sources */,
 				E59D66B31FFFD7680038FC1A /* AppDelegate.swift in Sources */,
-				E59D66B91FFFD77D0038FC1A /* BusesController.swift in Sources */,
+				E59D66B91FFFD77D0038FC1A /* busesController.swift in Sources */,
 				E5A4C8AE200E21F3008FC68C /* ConnectivityHandler.swift in Sources */,
 				E592A4F723F2EA0600311D4F /* StationsCustomTableCell.swift in Sources */,
 				E59D66B81FFFD77D0038FC1A /* StationsController.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class busesController: UITableViewController {
+class BusesController: UITableViewController {
 
     let buses = ["36", "8"]
     let urlArr = ["https://api.myjson.com/bins/m0b4j", "https://api.myjson.com/bins/19bsql"]
@@ -24,13 +24,14 @@ class busesController: UITableViewController {
         
         self.connectivityHandler = (UIApplication.shared.delegate as? AppDelegate)?.connectivityHandler
         self.connectivityHandler.addObserver(self, forKeyPath: "myMessage", options: [], context: nil)
+        
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "myMessage"{
             DispatchQueue.main.async(execute: {
                 let message = self.connectivityHandler.myMessage
-                let circlePageController = circlePage()
+                let circlePageController = CirclePage()
                 circlePageController.message = message
                 self.navigationController?.pushViewController(circlePageController, animated: true)
             })
@@ -50,7 +51,7 @@ class busesController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let urlData = urlArr[indexPath.row]
-        let statiiPageNav = statiiPage()
+        let statiiPageNav = StationsSchedule()
         statiiPageNav.coreURL = urlData
         self.navigationController?.pushViewController(statiiPageNav, animated: true )
     }
