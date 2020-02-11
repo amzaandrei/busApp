@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QeY-GO-J0M">
+    <device id="watch44" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Extra Bold Condensed Oblique.otf">
+            <string>Futura-CondExtraBoldObl</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Busses View Controller-->
+        <scene sceneID="CT1-fd-uQs">
+            <objects>
+                <controller id="QeY-GO-J0M" customClass="bussesViewController" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="3Lv-Ud-RYA">
+                            <items>
+                                <tableRow identifier="myCustomBusCell" id="cmm-fU-jQT" customClass="myCustomBusCell" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="2Uw-fK-wGp">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="f5a-v7-fZ3"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="busLabel" destination="f5a-v7-fZ3" id="cw1-1C-ykZ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="3Lv-Ud-RYA" id="Wbg-pb-ayl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="9" y="345"/>
+        </scene>
+        <!--statiiPage-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="statiiPage" id="AgC-eL-Hgc" customClass="statiiPage" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="y9k-Uk-Jo3">
+                            <items>
+                                <tableRow identifier="myCustomTableCell" id="7c2-AE-8OR" customClass="myCustomTableCell" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="u6a-hl-hGU">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="hVW-h6-OiN"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="myCellLabel" destination="hVW-h6-OiN" id="6SV-Ao-z4k"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="y9k-Uk-Jo3" id="bOW-p5-ACd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--orarStatie-->
+        <scene sceneID="7AS-l7-VKM">
+            <objects>
+                <controller identifier="orarStatie" id="dng-CN-Uyr" customClass="orarStatie" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="N8f-14-daN">
+                            <items>
+                                <tableRow identifier="orarCustomTableCell" id="UB7-MN-OG8" customClass="orarCustomTableCell" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="60" alignment="left" id="UwX-Hx-m7K">
+                                        <items>
+                                            <label width="25" height="19" alignment="left" verticalAlignment="center" text="Label" id="Ojg-wA-UGE"/>
+                                            <label width="100" height="53" alignment="left" verticalAlignment="center" text="Label" numberOfLines="2" id="fbO-UH-eAV"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="minuteLabel" destination="fbO-UH-eAV" id="7JP-Yf-6ho"/>
+                                        <outlet property="oraLabel" destination="Ojg-wA-UGE" id="5jX-2r-UHz"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="myTable" destination="N8f-14-daN" id="uGZ-0T-FNv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="447" y="345"/>
+        </scene>
+        <!--circularTimer-->
+        <scene sceneID="ZTn-Uc-Okg">
+            <objects>
+                <controller identifier="circularTimer" id="d9B-sZ-LV2" customClass="circularTimer" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="136" height="1" alignment="left" layout="vertical" id="Ujf-kH-Pg6">
+                            <items>
+                                <label width="46" height="24" alignment="center" text="00:00" id="EW7-Se-mgD">
+                                    <fontDescription key="font" name="Futura-CondExtraBoldObl" family="Futura" pointSize="16"/>
+                                </label>
+                                <imageView width="1" height="1" alignment="center" verticalAlignment="center" contentMode="scaleAspectFill" id="nOQ-YT-qbG"/>
+                            </items>
+                            <gestureRecognizers>
+                                <tapGestureRecognizer numberOfTapsRequired="2" id="WKI-CP-f2R">
+                                    <connections>
+                                        <action selector="viewTappped:" destination="d9B-sZ-LV2" id="vJW-Ts-c5d"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="imageObject" destination="nOQ-YT-qbG" id="wpf-cV-q2F"/>
+                        <outlet property="timerLabel" destination="EW7-Se-mgD" id="c5E-S2-c81"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="670.39130434782601" y="344.55357142857144"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="busssssApp_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
