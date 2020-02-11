@@ -9,7 +9,7 @@
 import UIKit
 
 
-class orarStatie: UITableViewController{
+class StationsController: UITableViewController{
     
     var coreURL: String! = nil
     var minutes = [Int]()
@@ -43,7 +43,7 @@ class orarStatie: UITableViewController{
                             })
                             self.tableView.delegate = self
                             self.tableView.dataSource = self
-                            self.tableView.register(customCell.self, forCellReuseIdentifier: self.cellId)
+                            self.tableView.register(StationsCustomTableCell.self, forCellReuseIdentifier: self.cellId)
                             self.tableView.reloadData()
                         }
                     })
@@ -68,7 +68,7 @@ class orarStatie: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! customCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! StationsCustomTableCell
         let data = Array(self.orarArrVar.keys)[indexPath.row]
         cell.textLabel?.text = String(describing: data)
         var finalStr = ""
@@ -81,29 +81,3 @@ class orarStatie: UITableViewController{
     
 }
 
-
-class customCell: UITableViewCell{
-    
-    let label: UILabel = {
-        let label = UILabel()
-        label.text = "asd"
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super.init(style: .default, reuseIdentifier: "cellId")
-        addSubview(label)
-        addConstraints()
-    }
-    
-    func addConstraints(){
-        label.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 50).isActive = true
-        label.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-}

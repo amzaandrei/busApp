@@ -13,7 +13,7 @@ struct myStruct: Decodable{
 }
 
 
-class statiiPage: UITableViewController{
+class StationsSchedule: UITableViewController{
     
     var statiiNamesArr = [String]()
     let cellId = "cellId"
@@ -63,7 +63,7 @@ class statiiPage: UITableViewController{
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let statiiData = statiiNamesArr[indexPath.row]
-        let orarStatiePage = orarStatie()
+        let orarStatiePage = StationsController()
         orarStatiePage.coreURL = coreURL
         orarStatiePage.statieName = statiiData
         self.navigationController?.pushViewController(orarStatiePage, animated: true)

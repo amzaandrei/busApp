@@ -13,7 +13,7 @@ struct myStruct: Decodable{
     let statii: [String]?
 }
 
-class statiiPage: WKInterfaceController {
+class StationsPage: WKInterfaceController {
     
     var statiiNames = [String]()
     @IBOutlet var myTable: WKInterfaceTable!
@@ -62,7 +62,7 @@ class statiiPage: WKInterfaceController {
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
         let data = statiiNames[rowIndex]
         let values = ["data":data,"globalLink": globalLink]
-        self.pushController(withName: "orarStatie", context: values)
+        self.pushController(withName: "StationSchedule", context: values)
 //        WKInterfaceController.reloadRootControllers(withNamesAndContexts: [(name: "statiiPage", context: self)])
     }
     

@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let mainView = busesController()
+        let mainView = BusesController()
         window?.rootViewController = UINavigationController(rootViewController: mainView)
         
         if WCSession.isSupported(){

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E592A4F723F2EA0600311D4F /* StationsCustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592A4F623F2EA0600311D4F /* StationsCustomTableCell.swift */; };
 		E59D667E1FFFD75C0038FC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59D667C1FFFD75C0038FC1A /* Main.storyboard */; };
 		E59D66801FFFD75C0038FC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59D667F1FFFD75C0038FC1A /* Assets.xcassets */; };
 		E59D66831FFFD75C0038FC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59D66811FFFD75C0038FC1A /* LaunchScreen.storyboard */; };
@@ -16,20 +17,20 @@
 		E59D669E1FFFD75D0038FC1A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D669D1FFFD75D0038FC1A /* ExtensionDelegate.swift */; };
 		E59D66A01FFFD75D0038FC1A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D669F1FFFD75D0038FC1A /* NotificationController.swift */; };
 		E59D66B31FFFD7680038FC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B21FFFD7680038FC1A /* AppDelegate.swift */; };
-		E59D66B71FFFD77D0038FC1A /* statiiPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B41FFFD77D0038FC1A /* statiiPage.swift */; };
-		E59D66B81FFFD77D0038FC1A /* orarStatie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B51FFFD77D0038FC1A /* orarStatie.swift */; };
-		E59D66B91FFFD77D0038FC1A /* busesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B61FFFD77D0038FC1A /* busesController.swift */; };
+		E59D66B71FFFD77D0038FC1A /* StationsSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B41FFFD77D0038FC1A /* StationsSchedule.swift */; };
+		E59D66B81FFFD77D0038FC1A /* StationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B51FFFD77D0038FC1A /* StationsController.swift */; };
+		E59D66B91FFFD77D0038FC1A /* BusesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66B61FFFD77D0038FC1A /* BusesController.swift */; };
 		E59D66BB1FFFD7890038FC1A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59D66BA1FFFD7890038FC1A /* Interface.storyboard */; };
 		E59D66BD1FFFD7910038FC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59D66BC1FFFD7910038FC1A /* Assets.xcassets */; };
-		E59D66C11FFFD79D0038FC1A /* orarStatie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66BE1FFFD79D0038FC1A /* orarStatie.swift */; };
-		E59D66C21FFFD79D0038FC1A /* circularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66BF1FFFD79D0038FC1A /* circularTimer.swift */; };
-		E59D66C31FFFD79D0038FC1A /* statiiPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66C01FFFD79D0038FC1A /* statiiPage.swift */; };
+		E59D66C11FFFD79D0038FC1A /* StationsSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66BE1FFFD79D0038FC1A /* StationsSchedule.swift */; };
+		E59D66C21FFFD79D0038FC1A /* CircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66BF1FFFD79D0038FC1A /* CircularTimer.swift */; };
+		E59D66C31FFFD79D0038FC1A /* StationsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D66C01FFFD79D0038FC1A /* StationsPage.swift */; };
 		E5A4C8AE200E21F3008FC68C /* ConnectivityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8AD200E21F3008FC68C /* ConnectivityHandler.swift */; };
-		E5A4C8B0200E261F008FC68C /* circlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8AF200E261F008FC68C /* circlePage.swift */; };
+		E5A4C8B0200E261F008FC68C /* CirclePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A4C8AF200E261F008FC68C /* CirclePage.swift */; };
 		E5BEBECE200C91A500749E73 /* Futura Extra Bold Condensed Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5BEBECD200C90C200749E73 /* Futura Extra Bold Condensed Oblique.otf */; };
 		E5BEBECF200C93D400749E73 /* Futura Extra Bold Condensed Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5BEBECD200C90C200749E73 /* Futura Extra Bold Condensed Oblique.otf */; };
 		E5BEBED0200C93DA00749E73 /* Futura Extra Bold Condensed Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5BEBECD200C90C200749E73 /* Futura Extra Bold Condensed Oblique.otf */; };
-		E5C2798A200D46AF00D05AA0 /* bussesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C27989200D46AF00D05AA0 /* bussesViewController.swift */; };
+		E5C2798A200D46AF00D05AA0 /* BussesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C27989200D46AF00D05AA0 /* BussesViewController.swift */; };
 		E5F02362200E541400B56DAC /* ConnectionHandlerAppleWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F02361200E541400B56DAC /* ConnectionHandlerAppleWatch.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E592A4F623F2EA0600311D4F /* StationsCustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsCustomTableCell.swift; sourceTree = "<group>"; };
 		E59D66751FFFD75C0038FC1A /* busssssApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busssssApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59D667D1FFFD75C0038FC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E59D667F1FFFD75C0038FC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,18 +92,18 @@
 		E59D66A31FFFD75D0038FC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59D66A41FFFD75D0038FC1A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		E59D66B21FFFD7680038FC1A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E59D66B41FFFD77D0038FC1A /* statiiPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = statiiPage.swift; sourceTree = "<group>"; };
-		E59D66B51FFFD77D0038FC1A /* orarStatie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orarStatie.swift; sourceTree = "<group>"; };
-		E59D66B61FFFD77D0038FC1A /* busesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = busesController.swift; sourceTree = "<group>"; };
+		E59D66B41FFFD77D0038FC1A /* StationsSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsSchedule.swift; sourceTree = "<group>"; };
+		E59D66B51FFFD77D0038FC1A /* StationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsController.swift; sourceTree = "<group>"; };
+		E59D66B61FFFD77D0038FC1A /* BusesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusesController.swift; sourceTree = "<group>"; };
 		E59D66BA1FFFD7890038FC1A /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		E59D66BC1FFFD7910038FC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E59D66BE1FFFD79D0038FC1A /* orarStatie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orarStatie.swift; sourceTree = "<group>"; };
-		E59D66BF1FFFD79D0038FC1A /* circularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circularTimer.swift; sourceTree = "<group>"; };
-		E59D66C01FFFD79D0038FC1A /* statiiPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = statiiPage.swift; sourceTree = "<group>"; };
+		E59D66BE1FFFD79D0038FC1A /* StationsSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsSchedule.swift; sourceTree = "<group>"; };
+		E59D66BF1FFFD79D0038FC1A /* CircularTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTimer.swift; sourceTree = "<group>"; };
+		E59D66C01FFFD79D0038FC1A /* StationsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsPage.swift; sourceTree = "<group>"; };
 		E5A4C8AD200E21F3008FC68C /* ConnectivityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityHandler.swift; sourceTree = "<group>"; };
-		E5A4C8AF200E261F008FC68C /* circlePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circlePage.swift; sourceTree = "<group>"; };
+		E5A4C8AF200E261F008FC68C /* CirclePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePage.swift; sourceTree = "<group>"; };
 		E5BEBECD200C90C200749E73 /* Futura Extra Bold Condensed Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Extra Bold Condensed Oblique.otf"; sourceTree = "<group>"; };
-		E5C27989200D46AF00D05AA0 /* bussesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bussesViewController.swift; sourceTree = "<group>"; };
+		E5C27989200D46AF00D05AA0 /* BussesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussesViewController.swift; sourceTree = "<group>"; };
 		E5F02361200E541400B56DAC /* ConnectionHandlerAppleWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandlerAppleWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E592A4F423F2E87500311D4F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E59D66B61FFFD77D0038FC1A /* BusesController.swift */,
+				E59D66B51FFFD77D0038FC1A /* StationsController.swift */,
+				E59D66B41FFFD77D0038FC1A /* StationsSchedule.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E592A4F523F2E9AE00311D4F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E592A4F623F2EA0600311D4F /* StationsCustomTableCell.swift */,
+				E5A4C8AF200E261F008FC68C /* CirclePage.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E592A4F823F2EB7B00311D4F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5C27989200D46AF00D05AA0 /* BussesViewController.swift */,
+				E59D66BE1FFFD79D0038FC1A /* StationsSchedule.swift */,
+				E59D66C01FFFD79D0038FC1A /* StationsPage.swift */,
+				E59D66BF1FFFD79D0038FC1A /* CircularTimer.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E592A4F923F2ECF700311D4F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E5F02361200E541400B56DAC /* ConnectionHandlerAppleWatch.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E592A4FA23F2ED0B00311D4F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4C8AD200E21F3008FC68C /* ConnectivityHandler.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		E59D666C1FFFD75C0038FC1A = {
 			isa = PBXGroup;
 			children = (
@@ -147,11 +195,9 @@
 			isa = PBXGroup;
 			children = (
 				E59D66B21FFFD7680038FC1A /* AppDelegate.swift */,
-				E59D66B61FFFD77D0038FC1A /* busesController.swift */,
-				E59D66B51FFFD77D0038FC1A /* orarStatie.swift */,
-				E59D66B41FFFD77D0038FC1A /* statiiPage.swift */,
-				E5A4C8AF200E261F008FC68C /* circlePage.swift */,
-				E5A4C8AD200E21F3008FC68C /* ConnectivityHandler.swift */,
+				E592A4FA23F2ED0B00311D4F /* Delegates */,
+				E592A4F523F2E9AE00311D4F /* CustomViews */,
+				E592A4F423F2E87500311D4F /* ViewController */,
 				E59D667C1FFFD75C0038FC1A /* Main.storyboard */,
 				E59D667F1FFFD75C0038FC1A /* Assets.xcassets */,
 				E59D66811FFFD75C0038FC1A /* LaunchScreen.storyboard */,
@@ -173,12 +219,9 @@
 		E59D669A1FFFD75D0038FC1A /* busssssApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E5C27989200D46AF00D05AA0 /* bussesViewController.swift */,
-				E59D66C01FFFD79D0038FC1A /* statiiPage.swift */,
-				E59D66BE1FFFD79D0038FC1A /* orarStatie.swift */,
-				E59D66BF1FFFD79D0038FC1A /* circularTimer.swift */,
+				E592A4F923F2ECF700311D4F /* Delegates */,
+				E592A4F823F2EB7B00311D4F /* ViewController */,
 				E59D669D1FFFD75D0038FC1A /* ExtensionDelegate.swift */,
-				E5F02361200E541400B56DAC /* ConnectionHandlerAppleWatch.swift */,
 				E5BEBECD200C90C200749E73 /* Futura Extra Bold Condensed Oblique.otf */,
 				E59D66BC1FFFD7910038FC1A /* Assets.xcassets */,
 				E59D669F1FFFD75D0038FC1A /* NotificationController.swift */,
@@ -326,12 +369,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A4C8B0200E261F008FC68C /* circlePage.swift in Sources */,
-				E59D66B71FFFD77D0038FC1A /* statiiPage.swift in Sources */,
+				E5A4C8B0200E261F008FC68C /* CirclePage.swift in Sources */,
+				E59D66B71FFFD77D0038FC1A /* StationsSchedule.swift in Sources */,
 				E59D66B31FFFD7680038FC1A /* AppDelegate.swift in Sources */,
-				E59D66B91FFFD77D0038FC1A /* busesController.swift in Sources */,
+				E59D66B91FFFD77D0038FC1A /* BusesController.swift in Sources */,
 				E5A4C8AE200E21F3008FC68C /* ConnectivityHandler.swift in Sources */,
-				E59D66B81FFFD77D0038FC1A /* orarStatie.swift in Sources */,
+				E592A4F723F2EA0600311D4F /* StationsCustomTableCell.swift in Sources */,
+				E59D66B81FFFD77D0038FC1A /* StationsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +383,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E59D66C31FFFD79D0038FC1A /* statiiPage.swift in Sources */,
-				E5C2798A200D46AF00D05AA0 /* bussesViewController.swift in Sources */,
-				E59D66C21FFFD79D0038FC1A /* circularTimer.swift in Sources */,
+				E59D66C31FFFD79D0038FC1A /* StationsPage.swift in Sources */,
+				E5C2798A200D46AF00D05AA0 /* BussesViewController.swift in Sources */,
+				E59D66C21FFFD79D0038FC1A /* CircularTimer.swift in Sources */,
 				E5F02362200E541400B56DAC /* ConnectionHandlerAppleWatch.swift in Sources */,
-				E59D66C11FFFD79D0038FC1A /* orarStatie.swift in Sources */,
+				E59D66C11FFFD79D0038FC1A /* StationsSchedule.swift in Sources */,
 				E59D66A01FFFD75D0038FC1A /* NotificationController.swift in Sources */,
 				E59D669E1FFFD75D0038FC1A /* ExtensionDelegate.swift in Sources */,
 			);

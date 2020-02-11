@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QeY-GO-J0M">
-    <device id="watch44" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14868" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QeY-GO-J0M">
+    <device id="watch38"/>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14643"/>
     </dependencies>
     <customFonts key="customFonts">
         <array key="Futura Extra Bold Condensed Oblique.otf">
@@ -17,7 +15,7 @@
         <!--Busses View Controller-->
         <scene sceneID="CT1-fd-uQs">
             <objects>
-                <controller id="QeY-GO-J0M" customClass="bussesViewController" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                <controller id="QeY-GO-J0M" customClass="BussesViewController" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="3Lv-Ud-RYA">
                             <items>
@@ -44,7 +42,7 @@
         <!--statiiPage-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller identifier="statiiPage" id="AgC-eL-Hgc" customClass="statiiPage" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                <controller identifier="statiiPage" id="AgC-eL-Hgc" customClass="StationsPage" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="y9k-Uk-Jo3">
                             <items>
@@ -71,7 +69,7 @@
         <!--orarStatie-->
         <scene sceneID="7AS-l7-VKM">
             <objects>
-                <controller identifier="orarStatie" id="dng-CN-Uyr" customClass="orarStatie" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                <controller identifier="orarStatie" id="dng-CN-Uyr" customClass="StationsSchedule" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
                     <items>
                         <table alignment="left" id="N8f-14-daN">
                             <items>
@@ -97,17 +95,17 @@
             </objects>
             <point key="canvasLocation" x="447" y="345"/>
         </scene>
-        <!--circularTimer-->
+        <!--CircularTimer-->
         <scene sceneID="ZTn-Uc-Okg">
             <objects>
-                <controller identifier="circularTimer" id="d9B-sZ-LV2" customClass="circularTimer" customModule="busssssApp_WatchKit_App" customModuleProvider="target">
+                <controller identifier="CircularTimer" id="d9B-sZ-LV2" customClass="CircularTimer" customModule="busssssApp_WatchKit_Extension">
                     <items>
                         <group width="136" height="1" alignment="left" layout="vertical" id="Ujf-kH-Pg6">
                             <items>
                                 <label width="46" height="24" alignment="center" text="00:00" id="EW7-Se-mgD">
                                     <fontDescription key="font" name="Futura-CondExtraBoldObl" family="Futura" pointSize="16"/>
                                 </label>
-                                <imageView width="1" height="1" alignment="center" verticalAlignment="center" contentMode="scaleAspectFill" id="nOQ-YT-qbG"/>
+                                <imageView width="136" height="1" alignment="center" verticalAlignment="center" contentMode="scaleAspectFill" id="nOQ-YT-qbG"/>
                             </items>
                             <gestureRecognizers>
                                 <tapGestureRecognizer numberOfTapsRequired="2" id="WKI-CP-f2R">

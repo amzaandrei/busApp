@@ -9,7 +9,7 @@
 import UIKit
 import WatchKit
 
-class bussesViewController: WKInterfaceController{
+class BussesViewController: WKInterfaceController{
     
     
     @IBOutlet var myTable: WKInterfaceTable!

@@ -8,7 +8,8 @@
 
 import UIKit
 import AudioToolbox
-class circlePage: UIViewController{
+
+class CirclePage: UIViewController{
     
     var shapeLayer: CAShapeLayer!
     var pulsatingLayer: CAShapeLayer!
@@ -25,7 +26,6 @@ class circlePage: UIViewController{
         return text
     }()
     
-//    var arrivedOnTime: Bool = false
     
     var initialSeconds: Int! = nil
     var seconds: Int! = nil

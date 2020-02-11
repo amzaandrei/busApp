@@ -9,7 +9,7 @@
 import UIKit
 import WatchKit
 
-class circularTimer: WKInterfaceController{
+class CircularTimer: WKInterfaceController{
     
     var timer: Timer!
     var seconds: Int = 0
@@ -102,31 +102,5 @@ class circularTimer: WKInterfaceController{
     }
     
     
-    override func willActivate() {
-//        let date = Date()
-//        let calendar = Calendar.current
-//
-//        let currentActSec = calendar.component(.second, from: date)
-//        let currentActMin = calendar.component(.minute, from: date)
-//        seconds = (currentMinute - currentDetMin) * 60 + currentActSec - currentDetSec
-//        print(seconds)
-//        circleStarting = circleStarting + seconds
-//        animateImagesWithTime(circleStarting: circleStarting)
-//        updateLabel()
-//        print("circleStarting act: " + String(currentActHour))
-//        print("circleStarting act: " + String(currentActMin))
-        super.willActivate()
-    }
-    
-    override func didDeactivate() {
-//        let date = Date()
-//        let calendar = Calendar.current
-//
-//        currentDetSec = calendar.component(.second, from: date)
-//        currentDetMin = calendar.component(.minute, from: date)
-//        print("circleStarting dect: " + String(currentDetHour))
-//        print("circleStarting dect: " + String(currentDetMin))
-        super.didDeactivate()
-    }
     
 }

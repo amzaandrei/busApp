@@ -9,7 +9,7 @@
 import UIKit
 import WatchKit
 
-class orarStatie: WKInterfaceController{
+class StationsSchedule: WKInterfaceController{
     
     @IBOutlet var myTable: WKInterfaceTable!
     var coreURL: String! = nil
@@ -95,7 +95,7 @@ class orarStatie: WKInterfaceController{
         let currentHour = calendar.component(.hour, from: date)
         if currentHour != hour{
             let action = WKAlertAction(title: "Ok", style: .default, handler: {})
-            self.presentAlert(withTitle: "Important", message: "The selected hour is equal with your current hour! ", preferredStyle: .alert, actions: [action])
+            self.presentAlert(withTitle: "Important", message: "The selected hour must be eqaul with your current time", preferredStyle: .alert, actions: [action])
             return
         }
         let currentMinute = calendar.component(.minute, from: date)
@@ -125,7 +125,7 @@ class orarStatie: WKInterfaceController{
             difference = min + finalMin
         }
         let values = ["currentHour": currentHour,"currentMinute": currentMinute,"difference": difference]
-        self.pushController(withName: "circularTimer", context: values)
+        self.pushController(withName: "CircularTimer", context: values)
         self.iphoneData(time: difference)
     }
     
